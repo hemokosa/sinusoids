@@ -1,0 +1,106 @@
+orchname:  C:\Documents and Settings\bota\My Documents\class\dlp\dlp.orc
+scorename: C:\Documents and Settings\bota\My Documents\class\dlp\dlp.sco
+sorting score ...
+	... done
+orch compiler:
+67 lines read
+	instr	1	
+	instr	2	
+	instr	3	
+Csound Version 4.19 (Mar  6 2003)
+graphics not supported on this terminal, ascii substituted
+orch now loaded
+audio buffered in 100 sample-frame blocks
+
+
+
+2 DirectSound devices found:
+
+DirectSound device 0 --> プライマリ サウンド ドライバ
+DirectSound device 1 --> Crystal WDM Audio
+
+Using PRIMARY buffer.
+Please, type a DirectSound device number and press <RETURN>:  0
+DSCAPS_PRIMARYMONO: 1
+DSCAPS_PRIMARYSTEREO: 1
+DSCAPS_PRIMARY8BIT: 0
+DSCAPS_PRIMARY16BIT: 1
+DSCAPS_CONTINUOUSRATE: 1
+DSCAPS_EMULDRIVER: 0
+DSCAPS_CERTIFIED: 1
+DSCAPS_SECONDARYMONO: 1
+DSCAPS_SECONDARYSTEREO: 1
+DSCAPS_SECONDARY8BIT: 0
+
+DirectSound device #0 enabled( プライマリ サウンド ドライバ )
+
+writing 400-byte blks of shorts to (null)
+ (IRCAM)
+SECTION 1:
+ftable 1:
+ftable 1:	8 points, scalemax 1.000
+
+
+
+
+
+
+
+
+
+________
+
+ftable 2:
+ftable 2:	4096 points, scalemax 1.000
+               .-''''''-._
+            _-'           '.
+          _-                '.
+         -                    '_
+       .'                       -
+      -                          '_
+    _'                             .
+   .                                -
+  -                                  '_
+_'_____________________________________._______________________________________
+                                        -                                     .
+                                         -                                   -
+                                          '_                               _'
+                                            .                             .
+                                             -                           -
+                                              '.                       _'
+                                                -_                    -
+                                                  -_                .'
+                                                    -_           _.'
+                                                      '-._____..'
+new alloc for instr 1:
+new alloc for instr 2:
+new alloc for instr 2:
+new alloc for instr 2:
+new alloc for instr 2:
+new alloc for instr 3:
+B  0.000 ..  0.010 T  0.010 TT  0.010 M:1896038.11895896.4
+	 number of samples out of range:      319      329
+B  0.010 ..  0.100 T  0.100 TT  0.100 M:61204444.061218012.0
+	 number of samples out of range:     3956     3955
+B  0.100 ..  0.110 T  0.110 TT  0.110 M:52408820.052409540.0
+	 number of samples out of range:      441      441
+B  0.110 ..  0.300 T  0.300 TT  0.300 M:188059808.0188048928.0
+	 number of samples out of range:     8373     8373
+B  0.300 ..  0.310 T  0.310 TT  0.310 M:185931584.0185952848.0
+	 number of samples out of range:      441      441
+B  0.310 ..  0.400 T  0.400 TT  0.400 M:258651152.0258644256.0
+	 number of samples out of range:     3969     3969
+B  0.400 ..  0.410 T  0.410 TT  0.410 M:262033664.0262036688.0
+	 number of samples out of range:      440      440
+B  0.410 ..  0.600 T  0.600 TT  0.600 M:385497216.0385475040.0
+	 number of samples out of range:     8376     8377
+B  0.600 ..  0.610 T  0.610 TT  0.610 M:345917696.0345920576.0
+	 number of samples out of range:      441      441
+B  0.610 ..  0.670 T  0.670 TT  0.670 M:384909024.0384906688.0
+	 number of samples out of range:     2646     2646
+B  0.970 ..  1.000 T  1.000 TT  1.000 M:117156960.0117144176.0
+	 number of samples out of range:     1319     1320
+end of score.		   overall amps:385497216.0385475040.0
+	   overall samples out of range:    30721    30732
+0 errors in performance
+0 400-byte soundblks of shorts written to (null) (IRCAM)

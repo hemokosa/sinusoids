@@ -1,0 +1,33 @@
+#N canvas 114 101 473 285 10;
+#X obj 23 75 csound~ 2;
+#X obj 23 150 dac~;
+#X obj 23 125 *~;
+#X obj 93 123 *~;
+#X obj 109 74 dbtorms;
+#X floatatom 109 52 5 0 0;
+#X text 67 23 << click here to start;
+#X obj 23 52 r csound;
+#X obj 23 100 /~ 32768;
+#X obj 93 100 /~ 32768;
+#X obj 45 24 bng 15 250 50 0 empty empty empty 20 8 0 8 -262144 -1
+-1;
+#X text 154 53 << master volume (dB);
+#X msg 184 106 \; csound bin /usr/local/bin/csound \; csound orc beep.orc
+\; csound sco beep.sco \; csound csound -dm0 \; pd dsp 1;
+#X obj 184 84 bng 15 250 50 0 empty empty empty 20 8 0 8 -262144 -1
+-1;
+#X obj 154 230 shell;
+#X msg 154 204 cmask beep.msk;
+#X connect 0 0 8 0;
+#X connect 0 1 9 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 1;
+#X connect 4 0 3 1;
+#X connect 4 0 2 1;
+#X connect 5 0 4 0;
+#X connect 7 0 0 0;
+#X connect 8 0 2 0;
+#X connect 9 0 3 0;
+#X connect 10 0 0 0;
+#X connect 13 0 12 0;
+#X connect 15 0 14 0;

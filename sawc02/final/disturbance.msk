@@ -1,0 +1,47 @@
+;; with ss2a.orc
+{ 
+f1 0 16384 10 1
+} 
+
+f 0 32
+
+p1
+const 1
+
+p2
+range 0.00001 0.1
+
+p3
+range 1. 30.
+
+p4
+range 500. 2000.
+
+p5
+rnd uni
+mask [4000 0] [4000 20000]
+quant 1000 [0 1]
+
+p6
+range 1. 20.
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+range 0. 1.
+
+p10
+range 0. .5
+
+p11
+range 0. 2.
+
+
+
+
+
+

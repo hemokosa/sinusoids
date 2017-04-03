@@ -1,0 +1,111 @@
+ecasound -x\
+	-a:1 -i /home/bota/sound/intermittence/interm4.wav -ea:40 \
+	-a:1 -o tmp1.wav -y:100
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/segments/seg0.wav -ea:40 \
+	-a:1,2 -o tmp2.wav -y:100
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum7.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:10
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo6.wav -ea:100 \
+	-a:1,2 -o tmp2.wav -y:390
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/segments/seg5.wav -ea:80 \
+	-a:1,2 -o tmp1.wav -y:100
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum5.wav -ea:100 \
+	-a:1,2 -o tmp2.wav -y:80
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo5.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:320
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/intermittence/interm6.wav -ea:80 \
+	-a:1,2 -o tmp2.wav
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/segments/seg3.wav -ea:60 \
+	-a:1,2 -o tmp1.wav -y:240
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo7.wav -ea:100 \
+	-a:1,2 -o tmp2.wav -y:260
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/intermittence/interm3.wav -ea:60 \
+	-a:1,2 -o tmp1.wav -y:200
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum6.wav -ea:100 \
+	-a:1,2 -o tmp2.wav -y:110
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo6.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:190
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/segments/seg2.wav -ea:60 \
+	-a:1,2 -o tmp2.wav -y:200
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum1.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:100
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/intermittence/interm2.wav -ea:60 \
+	-a:1,2 -o tmp2.wav -y:70
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo5.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:130
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum3.wav -ea:100 \
+	-a:1,2 -o tmp2.wav
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/segments/seg1.wav -ea:40 \
+	-a:1,2 -o tmp1.wav -y:200
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum2.wav -ea:100 \
+	-a:1,2 -o tmp2.wav -y:240
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo6.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:60
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum4.wav -ea:100 \
+	-a:1,2 -o tmp2.wav -y:100
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/intermittence/interm3.wav -ea:60 \
+	-a:1,2 -o tmp1.wav -y:200
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/segments/seg4.wav -ea:80 \
+	-a:1,2 -o tmp2.wav -y:150
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/intermittence/interm6.wav -ea:80 \
+	-a:1,2 -o tmp1.wav -y:40
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/intermittence/interm4.wav -ea:40 \
+	-a:1,2 -o tmp2.wav -y:5
+ecasound -x\
+	-a:1 -i tmp2.wav -ea:200 \
+	-a:2 -i /home/bota/sound/accumulations/accum8.wav -ea:100 \
+	-a:1,2 -o tmp1.wav -y:5
+ecasound -x\
+	-a:1 -i tmp1.wav -ea:200 \
+	-a:2 -i /home/bota/sound/composites/compo7.wav -ea:100 \
+	-a:1,2 -o tmp2.wav

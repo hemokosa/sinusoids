@@ -1,0 +1,15 @@
+// dlp
+paper 0
+pen 100
+
+//dot
+set [ 55 20 ] 100
+
+//line
+line 0 0 100 100
+
+//plane
+repeat i 10 70
+{
+	line i 40 i 70
+}

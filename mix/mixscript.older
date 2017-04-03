@@ -1,0 +1,32 @@
+ecasound -c \
+	-a:1 -i /home/bota/sound/intermittence/interm4.wav -ea:80 -o sinusoids.wav -y:0 \
+	-a:2 -i /home/bota/sound/intermittence/interm7.wav -ea:120 -o sinusoids.wav -y:400 \
+	-a:3 -i /home/bota/sound/intermittence/interm2.wav -ea:40 -o sinusoids.wav -y:2000 \
+	-a:4 -i /home/bota/sound/intermittence/interm1.wav -ea:40 -o sinusoids.wav -y:3600 \
+	-a:5 -i /home/bota/sound/intermittence/interm5.wav -ea:80 -o sinusoids.wav -y:50 \
+	-a:6 -i /home/bota/sound/intermittence/interm3.wav -ea:40 -o sinusoids.wav -y:1200 \
+	-a:7 -i /home/bota/sound/intermittence/interm6.wav -ea:120 -o sinusoids.wav -y:2500 \
+	-a:8 -i /home/bota/sound/accumulations/accum8.wav -ea:120 -o sinusoids.wav -y:100 \
+	-a:9 -i /home/bota/sound/accumulations/accum4.wav -ea:120 -o sinusoids.wav -y:600 \
+	-a:10 -i /home/bota/sound/accumulations/accum2.wav -ea:80 -o sinusoids.wav -y:900 \
+	-a:11 -i /home/bota/sound/accumulations/accum3.wav -ea:80 -o sinusoids.wav -y:1200 \
+	-a:12 -i /home/bota/sound/accumulations/accum1.wav -ea:80 -o sinusoids.wav -y:1700 \
+	-a:13 -i /home/bota/sound/accumulations/accum6.wav -ea:120 -o sinusoids.wav -y:1800 \
+	-a:14 -i /home/bota/sound/accumulations/accum5.wav -ea:120 -o sinusoids.wav -y:2900 \
+	-a:15 -i /home/bota/sound/accumulations/accum7.wav -ea:120 -o sinusoids.wav -y:3400 \
+	-a:16 -i /home/bota/sound/segments/seg0.wav -ea:40 -o sinusoids.wav -y:3500 \
+	-a:17 -i /home/bota/sound/segments/seg1.wav -ea:40 -o sinusoids.wav -y:1000 \
+	-a:18 -i /home/bota/sound/segments/seg2.wav -ea:80 -o sinusoids.wav -y:1500 \
+	-a:19 -i /home/bota/sound/segments/seg3.wav -ea:80 -o sinusoids.wav -y:2500 \
+	-a:20 -i /home/bota/sound/segments/seg4.wav -ea:120 -o sinusoids.wav -y:200 \
+	-a:21 -i /home/bota/sound/segments/seg5.wav -ea:120 -o sinusoids.wav -y:3000 \
+	-a:22 -i /home/bota/sound/composites/compo7.wav -o sinusoids.wav -ea:120 -y:0 \
+	-a:23 -i /home/bota/sound/composites/compo5.wav -o sinusoids.wav -ea:80 -y:560 \
+	-a:24 -i /home/bota/sound/composites/compo3.wav -o sinusoids.wav -ea:40 -y:1130 \
+	-a:25 -i /home/bota/sound/composites/compo1.wav -o sinusoids.wav -ea:40 -y:1690 \
+	-a:26 -i /home/bota/sound/composites/compo2.wav -o sinusoids.wav -ea:40 -y:2260 \
+	-a:27 -i /home/bota/sound/composites/compo4.wav -o sinusoids.wav -ea:80 -y:2820 \
+	-a:28 -i /home/bota/sound/composites/compo6.wav -o sinusoids.wav -ea:120 -y:3390
+
+
+

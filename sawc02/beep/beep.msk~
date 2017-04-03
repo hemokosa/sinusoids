@@ -1,0 +1,6 @@
+;; beep parameter file 
+{
+f1 0 4096 10 1 ;sine wave
+} 
+
+f 0 1 ;field duration: 1 secs

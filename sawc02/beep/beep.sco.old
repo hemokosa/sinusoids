@@ -1,0 +1,13 @@
+
+
+;Table# Start TableSize TableGenerator Parameter  Comment
+f1      0       4096    10      1       ;       sine    wave
+
+;ins ³«»Ï¡¡½ªÎ»¡¡²»ÎÌ¡¡´ðËÜ¼þÇÈ¿ô¡¡ÇÜ²»À®Ê¬¡¡²»ÎÌÈæ(1/p7)
+i2      0       1       8000    400      1       1       1       1
+i2      0       1       8000    400      11      1       0       2
+i2      0       1       8000    400      12      1       4       0
+i2      0       1       8000    400      13      1       0       6
+i2      0       1       8000    400      14      1       8       0
+
+e

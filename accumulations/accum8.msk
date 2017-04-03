@@ -1,0 +1,637 @@
+;; with accum.orc
+{ 
+f1 0 16384 10 1
+} 
+
+f 0 300
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 300.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 11025
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 0 150
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 150.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 13230
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 300 450
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 150.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 13230
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 0 100
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 100.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 15435
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 200 300
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 100.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 15435
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 400 500
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 100.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 15435
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 0 75
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 75.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 17640
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 150 225
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 75.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 17640
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 300 375
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 75.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 17640
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 450 525
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 75.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 17640
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 0 60
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 60.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 19845
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 120 180
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 60.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 19845
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 240 300
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 60.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 19845
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 360 420
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 60.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 19845
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+f 480 540
+
+p1
+const 1
+
+p2
+range 0.0001 1.
+
+p3
+range 1. 60.
+
+p4
+range 500. 1000.
+
+p5
+rnd uni
+mask -441 441
+accum wrap 4410 22050 init 19845
+
+p6
+range 0.1 20
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+rnd beta .2 .2
+mask 0 1
+
+p10
+rnd beta .2 .2
+mask 0 1
+
+p11
+range 0. 0.4
+
+p12
+range 0. 2.
+
+
+

@@ -1,0 +1,14 @@
+sr	=	44100
+kr	=	4410
+ksmps	=	10
+nchnls	=	2
+
+	instr 1
+ipanfreq	=	p9
+k1	Linen	p4, p7, p3, p8 
+k2	Line	p5, p3, p6
+kpan	oscil	.5, ipanfreq, 1
+kpanlfo	= kpan+.5
+a1	oscil	k1, k2, 1
+	outs	a1* kpanlfo, a1*(1-kpanlfo)
+	endin

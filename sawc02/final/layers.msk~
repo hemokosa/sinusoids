@@ -1,0 +1,44 @@
+;; beep parameter file 
+{ 
+f1 0 8192 10 1
+} 
+
+f 0 30
+
+p1
+const 1
+
+p2
+range 0.00001 0.01
+
+p3
+range 10. 30.
+
+p4
+range 50. 200.
+
+p5
+rnd uni
+mask [5000 11025] [5000 22050]
+
+p6
+rnd uni
+mask [5000 11025] [5000 22050]
+
+p7
+range 0.1 1.
+
+p8
+range 0.1 1.
+
+p9
+range 0. 1.
+
+p10
+range 0. 1.
+
+
+
+
+
+

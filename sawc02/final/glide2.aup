@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<audacityproject projname="glide2_data" version="1.1.0" audacityversion="1.1.0" sel0="0" sel1="57.26598639" vpos="0" h="3.994009491" zoom="740435.8969" rate="44100" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack channel="0" linked="1" offset="0" maxsamples="524288" sampleformat="131073" numsamples="2525430" rate="44100" >
+		<waveblock start="0" len="524288" >
+			<blockfile summarylen="12356" name="b00010.auf" alias="0" />
+		</waveblock>
+		<waveblock start="524288" len="524288" >
+			<blockfile summarylen="12356" name="b00011.auf" alias="0" />
+		</waveblock>
+		<waveblock start="1048576" len="524288" >
+			<blockfile summarylen="12356" name="b00012.auf" alias="0" />
+		</waveblock>
+		<waveblock start="1572864" len="524288" >
+			<blockfile summarylen="12356" name="b00013.auf" alias="0" />
+		</waveblock>
+		<waveblock start="2097152" len="428278" >
+			<blockfile summarylen="12356" name="b00014.auf" alias="0" />
+		</waveblock>
+	</wavetrack>
+	<wavetrack channel="1" linked="0" offset="0" maxsamples="524288" sampleformat="131073" numsamples="2525430" rate="44100" >
+		<waveblock start="0" len="524288" >
+			<blockfile summarylen="12356" name="b00015.auf" alias="0" />
+		</waveblock>
+		<waveblock start="524288" len="524288" >
+			<blockfile summarylen="12356" name="b00016.auf" alias="0" />
+		</waveblock>
+		<waveblock start="1048576" len="524288" >
+			<blockfile summarylen="12356" name="b00017.auf" alias="0" />
+		</waveblock>
+		<waveblock start="1572864" len="524288" >
+			<blockfile summarylen="12356" name="b00018.auf" alias="0" />
+		</waveblock>
+		<waveblock start="2097152" len="428278" >
+			<blockfile summarylen="12356" name="b00019.auf" alias="0" />
+		</waveblock>
+	</wavetrack>
+</audacityproject>

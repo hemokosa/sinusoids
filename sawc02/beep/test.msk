@@ -1,0 +1,20 @@
+;; bells parameter file 
+{ 
+f1 0 8193 10 1
+} 
+
+f 0 1
+
+p1 const 1 
+
+p2 range 0.01 0.03
+
+p3 range .07 .12 prec 2 
+
+p4 const 20
+
+p5 const 3
+
+p6 range 0 1 prec 2 
+
+p7 const 1

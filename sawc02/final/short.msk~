@@ -1,0 +1,30 @@
+;; beep parameter file 
+{ 
+f1 0 4096 10 1
+} 
+
+f 0 60
+
+p1 const 1
+
+p2 range 0. 30.
+
+p3 range 0. 30.
+
+p4 const 10000
+
+p5 range 20. 20000.
+
+p6 range 20. 20000.
+
+p7 const 0.
+
+p8 const 0.
+
+p9 range 0. 1.
+
+p10 range 0. 1.
+
+
+
+

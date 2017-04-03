@@ -1,0 +1,100 @@
+;; with dlpsto.orc
+{ 
+; Create a impulse table
+f1 0  8  2  1 0 0 0 0 0 0 0
+; waveform
+f2 0 4096 10 1
+} 
+
+;; dot
+
+f 0 100
+
+p1
+const 1
+
+p2
+range 0.01 0.5
+
+p3
+const 0.01
+
+p4
+range 0.1 0.8
+
+p5
+range 0 1
+
+;; line
+
+f 0 50
+
+p1
+const 2
+
+p2
+range 0.01 0.5
+
+p3
+range 1. 50.
+
+p4
+range 0.01 0.1
+
+p5
+rnd uni
+mask	(0 0     50 4410)
+	(0 22050 50 4410)
+quant	(0 63 50 63)
+	(0 1 50 0) 
+	0
+
+p6
+const 2
+
+p7
+range 0.1 0.5
+
+p8
+range 0.1 0.5
+
+p9
+range 0 1
+
+;; plane
+
+f 0 100
+
+p1
+const 3
+
+p2
+range 0.1  5
+
+p3
+range 0.001 0.01
+
+p4
+range 0.01 0.1
+
+p5
+const 22050
+
+p6
+const 0
+
+p7
+const 0
+
+p8
+const 11025
+
+p9
+const 11025
+
+p10
+range 0 1
+
+
+
+

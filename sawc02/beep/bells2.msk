@@ -1,0 +1,52 @@
+;; bells parameter file 
+{ 
+f1 0 8193 10 1 ;sine wave for foscil 
+} 
+
+f 0 10 ;field 1 
+
+p1 const 1 
+
+p2 range .1 .3 prec 2 ;density between 100 
+		      ;and 300 ms 
+
+p3 range .7 1.2 prec 2 
+
+p4 item heap (300 320 450 430 190) ;5 frequencies in 
+				   ;random permutations 
+
+p5 const 3 ;FM index = 3 
+
+p6 range 0 1 prec 2 
+
+f 2 8 ;field 2 
+
+p1 const 1 
+
+p2 seg (2 .01 5 .5 8 .01 ipl 1) prec 3 ;another density structure 
+
+p3 const .2 
+
+p4 item random (2000 2020 2400 2450 5300 2310 2350) 
+
+p5 seg (2 3 5 7 8 3 ipl 1) prec 1 ;FM index synchronous 
+				  ;to density p2 
+
+p6 range 0 .5 prec 2 ;panorama only in the 
+		     ;left half 
+
+f 5 15 ;field 3 
+
+p1 const 1 
+
+p2 item swing (.3 .05 .2 .1 1) ;a rhythm 
+
+p3 item swing (.3 .05 .2 .1 1) ;no rest, no overlap 
+
+p4 range 100 200 prec 1 
+
+p5 seg [1 5] ;increasing FM index 
+
+p6 range .3 .7 prec 2 ;only in the middle 
+
+;; --------------------

@@ -1,0 +1,77 @@
+orchname:  C:\Documents and Settings\bota\My Documents\class\dlp\dlpmp.orc
+scorename: C:\Documents and Settings\bota\My Documents\class\dlp\dlpmp.sco
+sorting score ...
+sread: requesting more memory
+sread: requesting more memory
+	... done
+orch compiler:
+70 lines read
+	instr	1	
+	instr	2	
+	instr	3	
+Csound Version 4.19 (Mar  6 2003)
+graphics not supported on this terminal, ascii substituted
+orch now loaded
+audio buffered in 400 sample-frame blocks
+
+
+
+3 DirectSound devices found:
+
+DirectSound device 0 --> プライマリ サウンド ドライバ
+DirectSound device 1 --> USB オーディオ デバイス
+DirectSound device 2 --> Crystal WDM Audio
+
+Using PRIMARY buffer.
+Please, type a DirectSound device number and press <RETURN>:  0
+DSCAPS_PRIMARYMONO: 1
+DSCAPS_PRIMARYSTEREO: 1
+DSCAPS_PRIMARY8BIT: 1
+DSCAPS_PRIMARY16BIT: 1
+DSCAPS_CONTINUOUSRATE: 1
+DSCAPS_EMULDRIVER: 0
+DSCAPS_CERTIFIED: 1
+DSCAPS_SECONDARYMONO: 1
+DSCAPS_SECONDARYSTEREO: 1
+DSCAPS_SECONDARY8BIT: 1
+
+DirectSound device #0 enabled( プライマリ サウンド ドライバ )
+
+writing 1600-byte blks of shorts to (null)
+ (IRCAM)
+SECTION 1:
+ftable 1:
+ftable 1:	8 points, scalemax 1.000
+
+
+
+
+
+
+
+
+
+________
+
+ftable 2:
+ftable 2:	4096 points, scalemax 1.000
+               .-''''''-._
+            _-'           '.
+          _-                '.
+         -                    '_
+       .'                       -
+      -                          '_
+    _'                             .
+   .                                -
+  -                                  '_
+_'_____________________________________._______________________________________
+                                        -                                     .
+                                         -                                   -
+                                          '_                               _'
+                                            .                             .
+                                             -                           -
+                                              '.                       _'
+                                                -_                    -
+                                                  -_                .'
+                                                    -_           _.'
+                                                      '-._____..'
